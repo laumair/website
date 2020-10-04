@@ -1,0 +1,48 @@
+{
+  "name": "Umair Sarfraz",
+  "links": [{
+    "type": "github",
+    "link": "https://www.github.com/laumair"
+  }, {
+    "type": "stackoverflow",
+    "link": "https://stackoverflow.com/users/6682995/umair-sarfrazr"
+  }, {
+    "type": "email",
+    "link": "mailto:aquadestructor@gmail.com"
+  }],
+  "quote": {
+    "text": "Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.",
+    "by": "Epicurus"
+  },
+  "intro": "Hello, welcome to my personal website. I read and write code for a living. I have a very keen interest in software security. Some of my other areas of interest are software design patterns, automation, philosophy and political sciences. I also consider myself a sports fanatic. Cannot miss a week without playing football or basketball.",
+  "programming": "Since early 2018, I have been working in the distributed ledger domain. Prior to that, I was actively involved in the development of service oriented solutions for cloud infrastructure.",
+  "projects": [{
+    "name": "Shepherd",
+    "link": "https://www.shepherd.one/"
+  }, {
+    "name": "netOrc",
+    "link": "https://wanclouds.net/netorc/"
+  }, {
+    "name": "Trinity Wallet",
+    "link": "https://github.com/iotaledger/trinity-wallet"
+  }, {
+    "name": "iota.js",
+    "link": "https://github.com/iotaledger/iota.js"
+  }, {
+    "name": "Tangle Archive",
+    "link": "https://github.com/iota-community/tangle-archive"
+  }, {
+    "name": "Selv",
+    "link": "https://blog.iota.org/selv-demo-a-digital-health-passport-c701bb381d29"
+  }],
+  "publications": [{
+    "title": "Privacy Aware IOTA Ledger: Decentralized Mixing and Unlinkable IOTA Transactions",
+    "link": "privacy_aware_iota_ledger.pdf"
+  }, {
+    "title": "Outsourcing IOTA Proof-of-Work to volunteer public devices",
+    "link": "outsourcing_iota_proof_of_work.pdf"
+  }, {
+    "title": "Blockchain-based Reputation System in Agri-Food Supply Chain",
+    "link": "blockchain_based_reputation_system.pdf"
+  }]
+}
