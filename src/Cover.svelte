@@ -103,7 +103,8 @@
             <img src="/images/me.jpg"
                  width="250px"
                  class="shadow"
-                 alt="Umair Sarfraz"/>
+                 alt={Content.name}
+            />
             <div class="button-row">
                 {#each Content.links as link}
                     <a class="shadow" href={link.link} title={link.type}>
