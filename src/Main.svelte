@@ -15,7 +15,7 @@
     }
 
     .intro {
-        padding-bottom: 2rem;
+        padding: 2rem 0;
     }
 </style>
 
