@@ -53,17 +53,18 @@
     h1 {
         text-shadow: 0.5rem 0.5rem 1rem var(--cover-shadow);
         font-weight: 600;
+        margin-bottom: 0;
     }
 
     .wrapper .down-arrow {
         display: none;
     }
 
-    @media (min-height: 600px) {
+    @media (min-height: 414px) {
         .wrapper .down-arrow {
             display: block;
             position: absolute;
-            bottom: 2rem;
+            bottom: 2.3rem;
             left: 50vw;
             transform: translateX(-50%);
         }
