@@ -11,20 +11,16 @@
 
 <style>
     .wrapper {
-        position: relative;
         width: 100%;
         height: 100vh;
         min-height: 600px;
         text-align: center;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        flex-direction: column;
         align-items: center;
         color: var(--cover-fg);
         background-color: var(--cover-bg);
-    }
-
-    .container {
-        margin-top: 5rem;
     }
 
     .wrapper .button-row {
@@ -56,50 +52,20 @@
         margin-bottom: 0;
     }
 
-    .wrapper .down-arrow {
-        display: none;
-    }
-
-    @media (min-height: 414px) {
-        .wrapper .down-arrow {
-            display: block;
-            position: absolute;
-            bottom: 2.3rem;
-            left: 50vw;
-            transform: translateX(-50%);
-        }
-    }
-
-    @media (max-width: 767px) {
-        .quote {
-            visibility: hidden;
-        }
-    }
-
     .quote {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin: auto;
-        max-width: 75%;
-        line-height: 1.5rem;
-    }
-
-    .quote > p > span {
-        margin-left: 0.1rem;
-        white-space: nowrap;
-        font-weight: 500;
-    }
-
-    .quote > p > i {
-        font-weight: 500;
+        font-size: 12px;
+        font-weight: 400;
+        color: var(--quote-fg);
     }
 </style>
 
 <div class="wrapper">
     <div class="container">
         <h1>{Content.name}</h1>
+        <p class="quote">
+            <i>"{Content.quote.text}"</i>
+            <span>— {Content.quote.by}</span>
+        </p>
         <div>
             <img src="/images/me.jpg"
                  width="250px"
@@ -114,13 +80,13 @@
                 {/each}
             </div>
         </div>
-        <div class="quote">
-            <p>
-                <i>"{Content.quote.text}"</i>
-                <span>— {Content.quote.by}</span>
-            </p>
-        </div>
     </div>
+    <!-- <div class="quote">
+        <p>
+            <i>"{Content.quote.text}"</i>
+            <span>— {Content.quote.by}</span>
+        </p>
+    </div> -->
     <div on:click={scroll} class="down-arrow">
         <Icon icon="arrowDown"/>
     </div>

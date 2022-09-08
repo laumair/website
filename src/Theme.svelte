@@ -28,6 +28,8 @@
         --max-width: 425px;
         --max-height: 680px;
 
+        --quote-fg: #828282;
+
         --cover-bg: #222;
         --cover-fg: #eee;
         --cover-shadow: #000;
