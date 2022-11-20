@@ -1,6 +1,9 @@
 {
   "name": "Umair Sarfraz",
   "links": [{
+    "type": "linkedin",
+    "link": "https://www.linkedin.com/in/laumair/"
+  }, {
     "type": "github",
     "link": "https://www.github.com/laumair"
   }, {
