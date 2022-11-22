@@ -1,51 +1,94 @@
 {
   "name": "Umair Sarfraz",
-  "links": [{
-    "type": "linkedin",
-    "link": "https://www.linkedin.com/in/laumair/"
-  }, {
-    "type": "github",
-    "link": "https://www.github.com/laumair"
-  }, {
-    "type": "stackoverflow",
-    "link": "https://stackoverflow.com/users/6682995/umair-sarfrazr"
-  }, {
-    "type": "email",
-    "link": "mailto:aquadestructor@gmail.com"
-  }],
-  "quote": {
+  "links": [
+    {
+      "type": "linkedin",
+      "link": "https://www.linkedin.com/in/laumair/"
+    },
+    {
+      "type": "github",
+      "link": "https://www.github.com/laumair"
+    },
+    {
+      "type": "stackoverflow",
+      "link": "https://stackoverflow.com/users/6682995/umair-sarfrazr"
+    },
+    {
+      "type": "email",
+      "link": "mailto:aquadestructor@gmail.com"
+    }
+  ],
+  "quotes": [{
     "text": "Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.",
     "by": "Epicurus"
-  },
-  "intro": "Hello, welcome to my personal website. I read and write code for a living. I have a very keen interest in software security. Some of my other areas of interest are software design patterns, automation, philosophy and political sciences. I also consider myself a sports fanatic. Cannot miss a week without playing football or basketball.",
-  "programming": "Since early 2018, I have been working in the distributed ledger domain. Prior to that, I was actively involved in the development of service oriented solutions for cloud infrastructure.",
-  "projects": [{
-    "name": "Shepherd",
-    "link": "https://www.shepherd.one/"
   }, {
-    "name": "netOrc",
-    "link": "https://wanclouds.net/netorc/"
+    "text": "Laughing is a bad infirmity of human nature, which every thinking mind will strive to overcome.",
+    "by": "Hobbes"
   }, {
-    "name": "Trinity Wallet",
-    "link": "https://github.com/iotaledger/trinity-wallet"
-  }, {
-    "name": "iota.js",
-    "link": "https://github.com/iotaledger/iota.js"
-  }, {
-    "name": "Tangle Archive",
-    "link": "https://github.com/iota-community/tangle-archive"
-  }, {
-    "name": "Selv",
-    "link": "https://blog.iota.org/selv-demo-a-digital-health-passport-c701bb381d29"
+    "text": "There are no facts, only interpretations.",
+    "by": "Nietzsche"
   }],
-  "publications": [{
-    "title": "Privacy Aware IOTA Ledger: Decentralized Mixing and Unlinkable IOTA Transactions",
-    "link": "privacy_aware_iota_ledger.pdf"
-  }, {
-    "title": "Outsourcing IOTA Proof-of-Work to volunteer public devices",
-    "link": "outsourcing_iota_proof_of_work.pdf"
-  }, {
-    "title": "Blockchain-based Reputation System in Agri-Food Supply Chain",
-    "link": "blockchain_based_reputation_system.pdf"
-  }]
+  "intro": "Hello, welcome to my personal website. I am currently working as a Researcher (Application Development Lead) at Distributed Artificial Intelligence (DAI) Lab at Technical University Berlin. My primary focus is research and development of showcase / simulation applications for autonomous driving.",
+  "programming": "I have been reading and writing code for a very long time. I have a strong aptitude for product / application development and that has been my focus area for the most part of my professional career. Since early 2018, I have been working in the Distributed Ledger aka Blockchain domain. Prior to that, I was actively involved in the development of service oriented solutions for cloud infrastructure. Recently, I have switched to mobility where I am researching and developing showcase / simulation applications for autonomous driving.",
+  "projects": [
+    {
+      "name": "BeIntelli",
+      "link": "https://be-intelli.com",
+      "image": "beintelli.jpg",
+      "description": "is a showcase project for future of autonomous driving & mobility."
+    },
+    {
+      "name": "Firefly",
+      "link": "https://firefly.iota.org/",
+      "image": "firefly.png",
+      "description": "is the official wallet for managing IOTA cryptocurrency payments."
+    },
+    {
+      "name": "IOTA Explorer",
+      "link": "https://explorer.iota.org/",
+      "image": "explorer.png",
+      "description": "is a web based tool to search through data recorded on the IOTA ledger."
+    },
+    {
+      "name": "Trinity Wallet",
+      "link": "https://github.com/iotaledger/trinity-wallet",
+      "image": "trinity.png",
+      "description": "was the old Official wallet for managing IOTA cryptocurrency payments. Deprecated in favour of Firefly."
+    },
+    {
+      "name": "iota.js",
+      "link": "https://github.com/iotaledger/iota.js",
+      "image": "iota.png",
+      "description": "is the official JavaScript library for IOTA network & wallet operations."
+    },
+    {
+      "name": "Selv",
+      "link": "https://blog.iota.org/selv-demo-a-digital-health-passport-c701bb381d29",
+      "image": "selv.png",
+      "description": "was a wallet application for managing self sovereign digital identities."
+    },
+    {
+      "name": "Shepherd",
+      "link": "https://www.linkedin.com/in/shepherd-by-wanclouds-774227b5/",
+      "image": "shepherd.png",
+      "description": "was a web based tool around security monitoring services for cloud orchestration engines e.g., Kubernetes, Docker Swarm, OpenShift. I was predominantly involved in the frontend development and deployment operations (devOps)."
+    }
+  ],
+  "research": {
+    "text": "My primary research interests are software security, distributed systems, software design patterns and data privacy."
+  },
+  "publications": [
+    {
+      "title": "Privacy Aware IOTA Ledger: Decentralized Mixing and Unlinkable IOTA Transactions",
+      "link": "privacy_aware_iota_ledger.pdf"
+    },
+    {
+      "title": "Outsourcing IOTA Proof-of-Work to volunteer public devices",
+      "link": "outsourcing_iota_proof_of_work.pdf"
+    },
+    {
+      "title": "Blockchain-based Reputation System in Agri-Food Supply Chain",
+      "link": "blockchain_based_reputation_system.pdf"
+    }
+  ]
 }

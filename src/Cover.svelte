@@ -51,21 +51,11 @@
         font-weight: 600;
         margin-bottom: 0;
     }
-
-    .quote {
-        font-size: 12px;
-        font-weight: 400;
-        color: var(--quote-fg);
-    }
 </style>
 
 <div class="wrapper">
     <div class="container">
         <h1>{Content.name}</h1>
-        <p class="quote">
-            <i>"{Content.quote.text}"</i>
-            <span>— {Content.quote.by}</span>
-        </p>
         <div>
             <img src="/images/me.jpg"
                  width="250px"
