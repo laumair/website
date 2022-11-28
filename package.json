@@ -17,5 +17,9 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack-dev-server --content-base public"
+  },
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.2.35",
+    "@amcharts/amcharts5-geodata": "^5.0.6"
   }
 }
