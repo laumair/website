@@ -58,7 +58,7 @@
         <h1>{Content.name}</h1>
         <div>
             <img src="/images/me.jpg"
-                 width="250px"
+                 width="35%"
                  class="shadow"
                  alt={Content.name}
             />
