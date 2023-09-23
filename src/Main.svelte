@@ -1,6 +1,5 @@
 <script>
     import Content from "./content.json";
-    import Map from "./Map.svelte"
 </script>
 
 <div class="container">
@@ -43,9 +42,6 @@
         <p>
             Please click <a href="/documents/cv.pdf">here.</a>
         </p>
-
-        <h3>Visited Countries</h3>
-        <Map />
 
         <h3>Random Stuff</h3>
         <ul>
